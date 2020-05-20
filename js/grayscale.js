@@ -53,17 +53,17 @@
       // }
       // else
       // {
-          // AJAX Code To Submit Form.
-//           $.ajax({
-//               crossDomain: true,
-//               dataType: 'jsonp',
-//               url: "https://leanqualityacademy.com/GilanBuilding/Mail/gilanform.php",
-//               data: dataString,
-//               cache: false,
-//               success: function(result){
-//                 // $(window).scrollTop(0);
+//           AJAX Code To Submit Form.
+          $.ajax({
+              crossDomain: true,
+              dataType: 'jsonp',
+              url: "https://leanqualityacademy.com/GilanBuilding/Mail/gilanform.php",
+              data: dataString,
+              cache: false,
+              success: function(result){
+                // $(window).scrollTop(0);
 
-//               }
+              }
          });
            alert("Your message has been sent.");
       // }
